@@ -1,6 +1,6 @@
 
 const success = () => {
-  return <div></div>;
+  return <div>Success</div>;
 };
 
 export default success;

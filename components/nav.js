@@ -10,6 +10,13 @@ export const Nav = () => {
             <Link href="/">
                 <a>Home</a>
             </Link>
+            {
+                !!user && (
+                    <Link href="/dashboard">
+                        <a className="ml-2">Dashboard</a>
+                    </Link>
+                )
+            }
             <Link href="/pricing">
                 <a className="ml-2">Pricing</a>
             </Link>
